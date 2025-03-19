@@ -5,6 +5,8 @@ function App() {
     return (
         <div>
             <Greeting name="Stanislav" />
+            <ThemeToggle />
+            <LoginMessage isLoggedIn={true} />
         </div>
     );
 }

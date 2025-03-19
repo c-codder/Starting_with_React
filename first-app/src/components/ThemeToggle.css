@@ -1,0 +1,18 @@
+.theme-container.light {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.theme-container.dark {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}

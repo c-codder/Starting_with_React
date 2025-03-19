@@ -4,7 +4,7 @@ import Greeting from "./components/Greeting.jsx";
 function App() {
     return (
         <div>
-            <Greeting name="Stanislav" />
+            <Greeting name="Staniislav" />
         </div>
     );
 }

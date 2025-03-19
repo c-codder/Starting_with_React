@@ -1,18 +1,38 @@
+.theme-container {
+    width: 300px; /* Fixed width for the rectangle */
+    height: auto; /* Adjust height dynamically based on content */
+    display: flex; /* Use flex for content alignment */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align content to the top (left by default) */
+    align-items: flex-start; /* Align content to the left */
+    border: 2px solid rgb(255, 0, 0); /* Red border */
+    border-radius: 4px; /* Slightly rounded corners */
+    margin: 20px 0; /* Add spacing between components */
+    padding: 15px; /* Inner spacing for content */
+    text-align: left; /* Ensure text aligns to the left */
+}
+
 .theme-container.light {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    text-align: center;
+    background-color: white; /* White background for light theme */
+    color: black; /* Black text for light theme */
 }
 
 .theme-container.dark {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-align: center;
+    background-color: black; /* Black background for dark theme */
+    color: white; /* White text for dark theme */
 }
 
 button {
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 5px 10px; /* Simple and small button */
+    font-size: 0.9em; /* Slightly smaller font size */
+    border: 1px solid black; /* Add a thin border to the button */
+    border-radius: 4px; /* Slightly rounded corners */
+    background-color: white; /* White background for button */
+    color: black; /* Black text for button */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Light gray hover effect */
 }
